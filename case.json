@@ -1,0 +1,24 @@
+[
+    {
+        "CaseNumber":"c001",
+        "victim":"Anonyms",
+        "details":"rape case",
+        "category":"suspicious",
+        "status":"always open",
+        "suspect":"zwahir",
+        "date":"12/4/2024",
+        "LName":"hafiz haider asim",
+        "LId":"l127" 
+    },
+    {
+        "CaseNumber":"c002",
+        "victim":"CE23",
+        "details":"drug supply",
+        "category":"drug",
+        "status":"always open",
+        "suspect":"taimoor",
+        "date":"12/8/2023",
+        "LName":"haseeb ashfaq",
+        "LId":"l420"    
+    }
+]

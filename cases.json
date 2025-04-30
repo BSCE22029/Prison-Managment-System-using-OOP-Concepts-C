@@ -1,0 +1,318 @@
+[
+    {
+        "CaseNumber": "c001",
+        "Category": "murder",
+        "Date": "12/12/2003",
+        "Detail": "attempt to murder",
+        "Lawyers": {
+            "address": "mu",
+            "age": 35,
+            "id": "l222",
+            "name": "hammad",
+            "specialization": "criminal"
+        },
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "ali manzoor"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 21,
+                "id": "v001",
+                "name": "hadin mirza",
+                "statement": "attacked by a strong man"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c002",
+        "Category": "harrasement",
+        "Date": "12/03/2023",
+        "Detail": "harrasing the peoples by demanding the money",
+        "Lawyers": {
+            "address": "dha",
+            "age": 25,
+            "id": "l201",
+            "name": "abdullah",
+            "specialization": "criminal"
+        },
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "closed",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "ali manzoor"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 18,
+                "id": "v002",
+                "name": "fozan khan",
+                "statement": "being harrased by a boy always demanding 150Rs"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c003",
+        "Category": "harrasement",
+        "Date": "02/03/2001",
+        "Detail": "a person is disturbing other people",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "ali manzoor"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 19,
+                "id": "v003",
+                "name": "aliyan ",
+                "statement": "disturbing during code"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c004",
+        "Category": "murder",
+        "Date": "12/02/2022",
+        "Detail": "attempt to murder",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "abdullah basit"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 19,
+                "id": "v004",
+                "name": "aliyan",
+                "statement": "a person try to kill me"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c005",
+        "Category": "threat",
+        "Date": "05/10/2021",
+        "Detail": "life,sleep threat",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "errors"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 12,
+                "id": "v005",
+                "name": "abdullah basit",
+                "statement": "sick of coding"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c006",
+        "Category": "threat",
+        "Date": "12/03/2023",
+        "Detail": "life threat from coding specially project",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "error"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 19,
+                "id": "v006",
+                "name": "fozan",
+                "statement": "i am sick of coding"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c007",
+        "Category": "pool",
+        "Date": "12/03/2003",
+        "Detail": "pool is very deep and victim dont know swimming",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "pool management"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 19,
+                "id": "v007",
+                "name": "ali hamid",
+                "statement": "i am under the water"
+            }
+        ]
+    },
+    {
+        "CaseNumber": "c008",
+        "Category": "steal",
+        "Date": "02/04/2005",
+        "Detail": "a person take the stationary of everyone when it find",
+        "Lawyers": [
+            {
+                "address": "N/A",
+                "age": 0,
+                "id": "N/A",
+                "name": "N/A",
+                "specialization": "N/A"
+            }
+        ],
+        "Punishment": [
+            {
+                "Duration": "N/A",
+                "Type": "N/A"
+            }
+        ],
+        "Status": "open",
+        "Suspects": [
+            {
+                "CriminalRecord": "-",
+                "WantedStatus": false,
+                "address": "-",
+                "age": 0,
+                "name": "feham asad"
+            }
+        ],
+        "Victims": [
+            {
+                "address": "N/A",
+                "age": 22,
+                "id": "v008",
+                "name": "ITU",
+                "statement": "our stationary lost"
+            }
+        ]
+    }
+]

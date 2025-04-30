@@ -1,0 +1,39 @@
+{
+    "visitors": [
+        {
+            "address": "pata ni",
+            "age": 30,
+            "name": "ali jutt",
+            "relationship": "Friend",
+            "visitorID": 1000
+        },
+        {
+            "address": "hpc lab mn",
+            "age": 30,
+            "name": "Kaliya don",
+            "relationship": "mamu ka putr",
+            "visitorID": 1001
+        },
+        {
+            "address": "hpc lab mn",
+            "age": 30,
+            "name": "Kaliya don",
+            "relationship": "mamu ka putr",
+            "visitorID": 1001
+        },
+        {
+            "address": "hpc lab mn",
+            "age": 30,
+            "name": "Kaliya don",
+            "relationship": "mamu ka putr",
+            "visitorID": 1001
+        },
+        {
+            "address": "hpc lab mn",
+            "age": 30,
+            "name": "Kaliya don",
+            "relationship": "mamu ka putr",
+            "visitorID": 1001
+        }
+    ]
+}

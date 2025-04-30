@@ -1,0 +1,25 @@
+[
+    {
+        "CriminalRecord": "Theft",
+        "WantedStatus": true,
+        "address": "123",
+        "age": 30,
+        "name": "ali"
+    }
+,
+    {
+        "CriminalRecord": "Theft",
+        "WantedStatus": true,
+        "address": "123",
+        "age": 30,
+        "name": "ali"
+    }
+,
+    {
+        "CriminalRecord": "Theft",
+        "WantedStatus": true,
+        "address": "123",
+        "age": 30,
+        "name": "ali"
+    }
+]

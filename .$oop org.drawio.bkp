@@ -1,0 +1,425 @@
+<mxfile host="Electron" modified="2024-03-31T23:08:45.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Y-SHm8jmfhQXvnhnf9T2" version="24.0.4" type="device" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="3760" dy="3076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hpSqmk2stO66xR75GkJj-0" value="Person" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="200" width="278" height="200" as="geometry">
+            <mxRectangle x="310" y="200" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-1" value="-name:string&lt;div&gt;-age:int&lt;/div&gt;&lt;div&gt;-adresses:string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hpSqmk2stO66xR75GkJj-0">
+          <mxGeometry x="3" y="23" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ Person(name: string, age: int, address: string)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ virtual ~Person()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ virtual void displayInfo()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hpSqmk2stO66xR75GkJj-0">
+          <mxGeometry x="-2" y="93" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hpSqmk2stO66xR75GkJj-0" target="hpSqmk2stO66xR75GkJj-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hpSqmk2stO66xR75GkJj-8" target="hpSqmk2stO66xR75GkJj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="450" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-8" value="Police Officer" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="193.75" y="630" width="506.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-9" value="- badgeNumber: string&lt;div&gt;&amp;nbsp;- rank: string&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- casesAssigned: vector&amp;lt;Case*&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hpSqmk2stO66xR75GkJj-8">
+          <mxGeometry x="6" y="30" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-11" value="+ PoliceOfficer(name: string, age: int, address: string,&lt;span style=&quot;background-color: initial;&quot;&gt;badgeNumber: string, rank: string)&lt;/span&gt;&lt;div&gt;+ virtual ~PoliceOfficer()&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void assignCase(Case* case)&lt;/div&gt;&lt;div&gt;+ void updateRank(string newRank)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hpSqmk2stO66xR75GkJj-8">
+          <mxGeometry x="16.5" y="165" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hpSqmk2stO66xR75GkJj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;sourcePerimeterSpacing=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hpSqmk2stO66xR75GkJj-0" target="hpSqmk2stO66xR75GkJj-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="400" as="sourcePoint" />
+            <mxPoint x="449" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="470" />
+              <mxPoint x="450" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-0" value="" style="endArrow=block;html=1;rounded=0;endFill=0;endSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="180" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-1" value="Civilian&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="210" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-2" value="&amp;nbsp; - job: string&lt;div&gt;&amp;nbsp;- educationLevel: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-1">
+          <mxGeometry x="-2" y="23" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="500" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-4" value="+ Civilian(name: string, age: int, address: string, job: string, educationLevel: string)&lt;div&gt;+ virtual ~Civilian()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ virtual void displayInfo() const&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-1">
+          <mxGeometry y="93" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-5" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=0;endSize=19;startSize=13;sourcePerimeterSpacing=16;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-6" value="Criminal" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="707" y="205" width="526" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-9" value="&amp;nbsp;+ Criminal(name: string, age: int, address: string, criminalRecord: string, wantedStatus: bool)&lt;div&gt;&amp;nbsp;+ virtual ~Criminal()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ virtual void displayInfo() const&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ void updateRecord(string newRecord)&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ void updateWantedStatus(bool status)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-6">
+          <mxGeometry x="6" y="102" width="520" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-7" value="- criminalRecord: string&amp;nbsp;&lt;div&gt;- wantedStatus: bool&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="711" y="230" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-6" target="1_gFiALzsl-hudHYDgPo-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="350" as="sourcePoint" />
+            <mxPoint x="870" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-10" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-11" value="Case" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="-274" width="600" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-12" value="&amp;nbsp;- caseNumber: string&lt;div&gt;&amp;nbsp;- description: string&lt;/div&gt;&lt;div&gt;&amp;nbsp;- status: string&lt;/div&gt;&lt;div&gt;&amp;nbsp;- suspects: vector&amp;lt;Criminal*&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- evidence: vector&amp;lt;Evidence*&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- punishments: vector&amp;lt;Punishment*&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- victims: vector&amp;lt;Victim*&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- lawyers: vector&amp;lt;Lawyer*&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- forensicLaboratories: vector&amp;lt;ForensicLaboratory*&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-11">
+          <mxGeometry x="10" y="34" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-14" value="&amp;nbsp;+ Case(caseNumber: string, description: string, status: string)&amp;nbsp;&amp;nbsp;&lt;div&gt;+ virtual ~Case()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void addSuspect(Criminal* suspect)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void updateStatus(string newStatus)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void addEvidence(Evidence* evidence)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void addPunishment(Punishment* punishment)&lt;/div&gt;&lt;div&gt;+ void addVictim(Victim* victim)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void addLawyer(Lawyer* lawyer)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void addForensicLaboratory(ForensicLaboratory* laboratory)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-11">
+          <mxGeometry x="8.5" y="178" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-11" target="1_gFiALzsl-hudHYDgPo-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-70" as="sourcePoint" />
+            <mxPoint x="790" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-16" value="Court" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="-637" width="221" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-17" value="- courtID: string&amp;nbsp;&lt;div style=&quot;&quot;&gt;- location: string&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- judges: vector&amp;lt;Judge*&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- cases: vector&amp;lt;Case*&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-16">
+          <mxGeometry x="4" y="20" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-19" value="+ Court(courtID: string, location: string)&lt;div&gt;+ virtual ~Court()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;div&gt;+ void addJudge(Judge* judge)&lt;/div&gt;&lt;div&gt;+ void addCase(Case* case)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-16">
+          <mxGeometry x="3" y="99" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-16" target="1_gFiALzsl-hudHYDgPo-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-590" as="sourcePoint" />
+            <mxPoint x="350" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-21" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;endSize=14;startSize=19;sourcePerimeterSpacing=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="-360" as="sourcePoint" />
+            <mxPoint x="446" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-22" value="Judge" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="-894" width="464" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-23" value="- judgeID: string&lt;div&gt;- specialization: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-22">
+          <mxGeometry x="5" y="23" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="69" as="sourcePoint" />
+            <mxPoint x="462" y="69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-25" value="+ Judge(name: string, age: int, address: string, judgeID: string, specialization: string)&lt;div&gt;+ virtual ~Judge()&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-22">
+          <mxGeometry x="2" y="69" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-26" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;endSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="-750" as="sourcePoint" />
+            <mxPoint x="440" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-27" value="ForensicLaboratory&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="17" y="-634" width="227" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="77" as="sourcePoint" />
+            <mxPoint x="226" y="77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-28" value="- location: string&lt;div&gt;- equipment: vector&amp;lt;string&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="24" y="-614" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-30" value="+ ForensicLaboratory(location: string)&lt;div&gt;+ virtual ~ForensicLaboratory()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ void addEquipment(string equipment)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="21" y="-558" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-31" value="" style="endArrow=diamondThin;html=1;rounded=0;entryX=-0.014;entryY=0.803;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;spacing=12;endSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="1_gFiALzsl-hudHYDgPo-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="-560" as="sourcePoint" />
+            <mxPoint x="300" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-32" value="PoliceStation&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="520" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-33" value="- location: string&lt;div&gt;- contactDetails: string&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- officers: vector&amp;lt;PoliceOfficer*&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- civilians: vector&amp;lt;Civilian*&amp;gt;&lt;/div&gt;&lt;div&gt;- cases: vector&amp;lt;Case*&amp;gt;&lt;/div&gt;&lt;div&gt;- visitors: vector&amp;lt;Visitor*&amp;gt;&lt;/div&gt;&lt;div&gt;- prisoners: vector&amp;lt;Prisoner*&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-32">
+          <mxGeometry x="8" y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-35" value="+ PoliceStation(location: string, contactDetails: string)&lt;div&gt;+ virtual ~PoliceStation()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;div&gt;+ void addOfficer(PoliceOfficer* officer)&lt;/div&gt;&lt;div&gt;+ void addCivilian(Civilian* civilian)&lt;/div&gt;&lt;div&gt;+ void addCase(Case* case)&lt;/div&gt;&lt;div&gt;+ void addVisitor(Visitor* visitor)&lt;/div&gt;&lt;div&gt;+ void addPrisoner(Prisoner* prisoner)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-32">
+          <mxGeometry x="7" y="160" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="680" as="sourcePoint" />
+            <mxPoint x="-140" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-37" value="" style="endArrow=diamond;html=1;rounded=0;exitX=0.103;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-430" y="490" as="sourcePoint" />
+            <mxPoint x="140" y="-90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-410" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-39" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.7;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;endSize=19;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="510" as="sourcePoint" />
+            <mxPoint x="-230" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-41" value="Prisioner" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="520" width="575" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-44" value="+ Prisoner(name: string, age: int, address: string, prisonerID: string, sentence: string, releaseDate: string)&lt;div&gt;+ virtual ~Prisoner()&lt;div&gt;+ virtual void displayInfo() const&lt;div&gt;+ void updateSentence(string newSentence)&lt;div&gt;+ void updateReleaseDate(string newReleaseDate)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-41">
+          <mxGeometry x="6" y="72" width="580" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-42" value="- prisonerID: string&lt;div&gt;- sentence: string&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- releaseDate: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-41">
+          <mxGeometry x="5" y="16" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.5" y="74.66999999999996" as="sourcePoint" />
+            <mxPoint x="570.5" y="74.66999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-45" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;strokeWidth=2;endSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="820" as="sourcePoint" />
+            <mxPoint x="1110" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-280" y="910" />
+              <mxPoint x="1110" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-49" value="" style="endArrow=block;html=1;rounded=0;entryX=0.401;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;jumpSize=12;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="1_gFiALzsl-hudHYDgPo-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="1220" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="460" />
+              <mxPoint x="1110" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-50" value="" style="endArrow=diamondThin;html=1;rounded=0;entryX=0.537;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;endSize=19;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="1_gFiALzsl-hudHYDgPo-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-110" as="sourcePoint" />
+            <mxPoint x="1070" y="-110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-51" value="Victim" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="861" y="-310" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="70" as="sourcePoint" />
+            <mxPoint x="440" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-52" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- victimID: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- statement: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-51">
+          <mxGeometry x="6" y="22" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-54" value="+ Victim(name: string, age: int, address: string, victimID: string, statement: string)&lt;div&gt;+ virtual ~Victim()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&lt;div&gt;+ void updateStatement(string newStatement)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-51">
+          <mxGeometry x="6" y="80" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-55" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-190" as="sourcePoint" />
+            <mxPoint x="860" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-56" value="Evidence" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="-574" width="393" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-57" value="- itemID: string&lt;div&gt;- description: string&lt;/div&gt;&lt;div&gt;- chainOfCustody: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-56">
+          <mxGeometry x="5" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-59" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="90" as="sourcePoint" />
+            <mxPoint y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-60" value="+ Evidence(itemID: string, description: string, chainOfCustody: string)&lt;div&gt;+ virtual ~Evidence()&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;div&gt;+ void updateChainOfCustody(string newChain)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-56">
+          <mxGeometry x="3" y="93" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-63" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.98;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endFill=1;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="728" y="-274.89999999999986" as="sourcePoint" />
+            <mxPoint x="880" y="-445.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="-446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-64" value="Punishment" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="940" y="-860" width="257" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-66" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="254" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-65" value="- type: string&lt;div&gt;- duration: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-64">
+          <mxGeometry x="6" y="29" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-67" value="+ Punishment(type: string, duration: string)&lt;div&gt;+ virtual ~Punishment()&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-64">
+          <mxGeometry x="7" y="86" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-68" value="" style="endArrow=diamondThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.941;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-11" target="1_gFiALzsl-hudHYDgPo-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="-760" as="sourcePoint" />
+            <mxPoint x="820" y="-760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="-760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-69" value="Lawyer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="-320" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-70" value="- lawyerID: string&lt;div&gt;- specialization: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-69">
+          <mxGeometry x="6" y="26" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-71" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="70" as="sourcePoint" />
+            <mxPoint x="470" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-72" value="+ Lawyer(name: string, age: int, address: string, lawyerID: string, specialization: string)&lt;div&gt;+ virtual ~Lawyer()&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-69">
+          <mxGeometry x="6" y="80" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-73" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=-0.006;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1_gFiALzsl-hudHYDgPo-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="-260" as="sourcePoint" />
+            <mxPoint x="-20" y="-262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-74" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-109.5" y="440" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-75" value="- visitorID: string&lt;div&gt;- relationship: string&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-74">
+          <mxGeometry y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1_gFiALzsl-hudHYDgPo-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4" y="70" as="sourcePoint" />
+            <mxPoint x="474" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-77" value="+ Visitor(name: string, age: int, address: string, visitorID: string, relationship: string)&lt;div&gt;+ virtual ~Visitor()&lt;div&gt;+ virtual void displayInfo() const&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1_gFiALzsl-hudHYDgPo-74">
+          <mxGeometry y="85" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-78" value="" style="endArrow=blockThin;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.003;exitY=0.712;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hpSqmk2stO66xR75GkJj-3" target="1_gFiALzsl-hudHYDgPo-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_gFiALzsl-hudHYDgPo-79" value="" style="endArrow=diamondThin;html=1;rounded=0;endFill=1;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="520" as="sourcePoint" />
+            <mxPoint x="-110" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-180" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="rEuv7K15PHCK9GPD5i7U">
+    <mxGraphModel dx="1600" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-0" />
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-1" parent="MFv1L1p0ZNsMea2fnk3x-0" />
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-2" value="Person" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-1">
+          <mxGeometry x="310" y="200" width="278" height="200" as="geometry">
+            <mxRectangle x="310" y="200" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-3" value="-name:string&lt;div&gt;-age:int&lt;/div&gt;&lt;div&gt;-adresses:string&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-2">
+          <mxGeometry x="-2" y="23" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-4" value="&amp;nbsp;+ Person(name: string, age: int, address: string)&lt;div&gt;+ virtual ~Person()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-2">
+          <mxGeometry x="-2" y="93" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MFv1L1p0ZNsMea2fnk3x-1" source="MFv1L1p0ZNsMea2fnk3x-2" target="MFv1L1p0ZNsMea2fnk3x-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-6" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MFv1L1p0ZNsMea2fnk3x-1" source="MFv1L1p0ZNsMea2fnk3x-7" target="MFv1L1p0ZNsMea2fnk3x-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="450" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-7" value="Police station" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-1">
+          <mxGeometry x="200" y="500" width="506.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-8" value="- badgeNumber: string&lt;div&gt;&amp;nbsp;- rank: string&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- casesAssigned: vector&amp;lt;Case*&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-7">
+          <mxGeometry x="-8" y="30" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-9" value="+ PoliceOfficer(name: string, age: int, address: string,&lt;span style=&quot;background-color: initial;&quot;&gt;badgeNumber: string, rank: string)&lt;/span&gt;&lt;div&gt;+ virtual ~PoliceOfficer()&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ virtual void displayInfo() const&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ void assignCase(Case* case)&lt;/div&gt;&lt;div&gt;+ void updateRank(string newRank)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MFv1L1p0ZNsMea2fnk3x-7">
+          <mxGeometry x="16.5" y="165" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MFv1L1p0ZNsMea2fnk3x-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;sourcePerimeterSpacing=0;" edge="1" parent="MFv1L1p0ZNsMea2fnk3x-1" source="MFv1L1p0ZNsMea2fnk3x-2" target="MFv1L1p0ZNsMea2fnk3x-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="400" as="sourcePoint" />
+            <mxPoint x="449" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="470" />
+              <mxPoint x="450" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

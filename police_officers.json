@@ -1,0 +1,18 @@
+{
+    "officers": [
+        {
+            "address": "kot lakhpat",
+            "age": 35,
+            "badgeNumber": "itup001",
+            "name": "ali jutt",
+            "rank": "constable"
+        },
+        {
+            "address": "Model town",
+            "age": 40,
+            "badgeNumber": "itup002",
+            "name": "kaliya don",
+            "rank": "inspector"
+        }
+    ]
+}

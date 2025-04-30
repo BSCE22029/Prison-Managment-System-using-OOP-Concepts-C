@@ -1,0 +1,63 @@
+{
+    "prisoner": {
+        "name": "jutt",
+        "age": 30,
+        "address": "Prison Street",
+        "cellNumber": "206",
+        "sentenceDuration": "10 years",
+        "sentenceStart": "2025-06-15"
+    },
+    "forensicLab": {
+        "name": "Lab1",
+        "equipment": ["Microscope", "Spectrometer"]
+    }
+,
+    "forensicLab": {
+        "equipment": [
+            "Microscope",
+            "Spectrometer"
+        ],
+        "location": "Lab1"
+    },
+    "prisoner": {
+        "address": "Prison Street",
+        "age": 30,
+        "name": "jutt",
+        "prisonerID": "206",
+        "releaseDate": "2025-06-15",
+        "sentence": "10 years"
+    }
+,
+    "forensicLab": {
+        "equipment": [
+            "Microscope",
+            "Spectrometer"
+        ],
+        "location": "Lab1"
+    },
+    "prisoner": {
+        "address": "Prison Street",
+        "age": 30,
+        "name": "jutt",
+        "prisonerID": "206",
+        "releaseDate": "2025-06-15",
+        "sentence": "10 years"
+    }
+}
+{
+    "forensicLab": {
+        "equipment": [
+            "Microscope",
+            "Spectrometer"
+        ],
+        "location": "Lab1"
+    },
+    "prisoner": {
+        "address": "Prison Street",
+        "age": 30,
+        "name": "Moiz",
+        "prisonerID": "206",
+        "releaseDate": "2025-06-15",
+        "sentence": "10 years"
+    }
+}

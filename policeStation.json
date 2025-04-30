@@ -1,0 +1,21 @@
+[
+    {
+        "ID": [
+            "itup001",
+            "itup002",
+            "itup003",
+            "itup004",
+            "itup005",
+            "itup006",
+            "itup007",
+            "itup008"
+        ],
+        "code": "ITU",
+        "location": "ASTP"
+    },
+    {
+        "ID": [],
+        "code": "PU",
+        "location": "muslim town"
+    }
+]

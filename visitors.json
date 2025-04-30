@@ -1,0 +1,30 @@
+[
+    {
+        "address": "",
+        "age": "",
+        "name": "",
+        "relationship": "",
+        "visitorID": ""
+    },
+    {
+        "address": "",
+        "age": 0,
+        "name": "",
+        "relationship": "",
+        "visitorID": 0
+    },
+    {
+        "address": "Bed no 1 Room no 206",
+        "age": 12,
+        "name": "",
+        "relationship": "",
+        "visitorID": 0
+    },
+    {
+        "address": "room no 206",
+        "age": 12,
+        "name": "",
+        "relationship": "Brother",
+        "visitorID": 123
+    }
+]
