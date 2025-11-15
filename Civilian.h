@@ -4,7 +4,6 @@
 #include "person.h"
 #include <string>
 
-// is a sub class of person
 class Civilian:public Person
 {
     private:
@@ -23,4 +22,5 @@ class Civilian:public Person
         friend istream& operator >>(istream& is,Civilian& obj);
 };
 
-#endif // CIVILIAN_H
+#endif 
+
